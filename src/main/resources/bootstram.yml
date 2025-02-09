@@ -1,0 +1,5 @@
+logging:
+  level:
+    root: info
+    com.hivemq: debug
+    com.ajie.enterprisewechat: debug
