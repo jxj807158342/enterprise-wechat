@@ -1,10 +1,10 @@
 -- apply changes
-create table demo (
+create table access_token (
   id                            bigint auto_increment not null,
-  name                          varchar(255) comment '姓名',
+  access_token                  varchar(255) comment 'token 值',
   version                       bigint not null,
   when_created                  datetime(6) not null,
   when_modified                 datetime(6) not null,
-  constraint pk_demo primary key (id)
-) comment='测试';
+  constraint pk_access_token primary key (id)
+) comment='获取token';
 

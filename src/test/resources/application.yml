@@ -1,7 +1,7 @@
 datasource:
   db:
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://124.220.209.29:3309/test?characterEncoding=utf-8&useSSL=false&allowMultiQueries=true
+    url: jdbc:mysql://124.220.209.29:3309/enterprise_wechat?characterEncoding=utf-8&useSSL=false&allowMultiQueries=true
     username: root
     password: ajie123456
 ebean:

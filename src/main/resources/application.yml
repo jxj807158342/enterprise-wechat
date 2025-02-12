@@ -8,7 +8,7 @@ spring:
     name: enterprise-wechat
   datasource:
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://124.220.209.29:3309/test?characterEncoding=utf-8&useSSL=false&allowMultiQueries=true
+    url: jdbc:mysql://124.220.209.29:3309/enterprise_wechat?characterEncoding=utf-8&useSSL=false&allowMultiQueries=true
     username: root
     password: ajie123456
     # Hikari 连接池配置
@@ -42,3 +42,10 @@ spring:
     password: ajie123456
 
 
+wechat:
+  # 企业ID
+  corpid: wwcdb781cee1ee4b21
+  # 应用密钥
+  corpsecret: gwh2mdFUcwxAUmbdu6m7VGmaTxA3u9FtnFNkCLNUnHk
+  # 域名
+  domain: https://www.ajie.1988.top/wechat
